@@ -1,0 +1,29 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  ul {
+    padding: 0 0 0 15px;
+    margin: 0;
+    text-align: left;
+  }
+  li {
+    padding: 5px 0;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+  }
+  .arrowStyle {
+    list-style: none;
+  }
+  .arrowStyle::before {
+    content: "\02C5";
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: -15px;
+  }
+  
